@@ -20,20 +20,59 @@
   <body>
     <!-- Navbar start -->
     <nav class="navbar">
-      <a href="#" class="navbar-logo">Kamera<span>DSLR</span>.</a>
+      <a href="#" class="navbar-logo">Baron's <span>Cameras</span>.</a>
 
       <div class="navbar-nav">
         <a href="#">Home</a>
         <a href="#about">Tentang Kami</a>
         <a href="#menu">Kamera</a>
+        <a href="#products">Produk</a>
         <a href="#contact">Kontak</a>
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
-        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
+
+      <!-- Search Form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form end -->
+
+      <!-- Shopping Cart start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/products/1.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 17.000.000</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/products/2.jpg" alt="Product 2" />
+          <div class="item-detail">
+            <h3>Product 2</h3>
+            <div class="item-price">IDR 10.000.000</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/products/3.jpg" alt="Product 3" />
+          <div class="item-detail">
+            <h3>Product 3</h3>
+            <div class="item-price">IDR 7.000.000</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart end -->
     </nav>
     <!-- Navbar end -->
 
@@ -84,23 +123,171 @@
 
       <div class="row">
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Cameras" class="menu-card-img" />
-          <h3 class="menu-card-title">- Canon EOS 200D -</h3>
-          <p class="menu-card-price">IDR 17.000.000</p>
+          <img src="img/menu/canon.jpg" alt="Cameras" class="menu-card-img" />
+          <h3 class="menu-card-title">- Canon -</h3>
+          <p class="menu-card-price">IDR 7.000.000 - 17.000.000</p>
         </div>
         <div class="menu-card">
-          <img src="img/menu/2.jpg" alt="Cameras" class="menu-card-img" />
-          <h3 class="menu-card-title">- Canon EOS 1500D -</h3>
-          <p class="menu-card-price">IDR 10.000.000</p>
-        </div>
-        <div class="menu-card">
-          <img src="img/menu/3.jpg" alt="Cameras" class="menu-card-img" />
-          <h3 class="menu-card-title">- Canon EOS 3000D -</h3>
-          <p class="menu-card-price">IDR 7.000.000</p>
+          <img src="img/menu/nikon.jpg" alt="Cameras" class="menu-card-img" />
+          <h3 class="menu-card-title">- Nikon -</h3>
+          <p class="menu-card-price">IDR 15.000.000 - 36.000.000</p>
         </div>
       </div>
     </section>
     <!-- Menu Section end -->
+
+    <!-- Products Section start -->
+    <section class="products" id="products">
+      <h2><span>Produk</span> Kami</h2>
+      <p>Produk kamera tersedia kami, Pesan sekarang!</p>
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="products-image">
+            <img src="img/products/1.jpg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Canon EOS 200D</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">
+              IDR 17.000.000 <span>IDR 18.500.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button2"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="products-image">
+            <img src="img/products/2.jpg" alt="Product 2" />
+          </div>
+          <div class="product-content">
+            <h3>Canon EOS 1500D</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">
+              IDR 10.000.000 <span>IDR 11.500.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button3"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="products-image">
+            <img src="img/products/3.jpg" alt="Product 3" />
+          </div>
+          <div class="product-content">
+            <h3>Canon EOS 3000D</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">
+              IDR 7.000.000 <span>IDR 8.500.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button4"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="products-image">
+            <img src="img/products/4.jpg" alt="Product 4" />
+          </div>
+          <div class="product-content">
+            <h3>Nikon D7500</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">
+              IDR 15.000.000 <span>IDR 16.500.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button5"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="products-image">
+            <img src="img/products/5.jpg" alt="Product 5" />
+          </div>
+          <div class="product-content">
+            <h3>Nikon D780</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">
+              IDR 26.500.000 <span>IDR 28.000.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button6"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="products-image">
+            <img src="img/products/6.jpg" alt="Product 6" />
+          </div>
+          <div class="product-content">
+            <h3>Nikon D850</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">
+              IDR 36.000.000 <span>IDR 37.500.000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Products Section end -->
 
     <!-- Contact Section start -->
     <section id="contact" class="contact">
@@ -157,6 +344,183 @@
       </div>
     </footer>
     <!-- Footer end -->
+
+    <!-- Modal Box Item start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/products/1.jpg" alt="Product 1" />
+          <div class="product-content">
+            <h3>Product 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint,
+              itaque eius exercitationem vitae deleniti harum excepturi fuga
+              aperiam illo totam accusantium maiores qui pariatur voluptates.
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">
+              IDR 17.000.000 <span>IDR 18.500.000</span>
+            </div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i><span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="item-detail-modal2">
+      <div class="modal-container">
+        <a href="#" class="close-icon2"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/products/2.jpg" alt="Product 2" />
+          <div class="product-content">
+            <h3>Product 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint,
+              itaque eius exercitationem vitae deleniti harum excepturi fuga
+              aperiam illo totam accusantium maiores qui pariatur voluptates.
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">
+              IDR 10.000.000 <span>IDR 11.500.000</span>
+            </div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i><span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="item-detail-modal3">
+      <div class="modal-container">
+        <a href="#" class="close-icon3"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/products/3.jpg" alt="Product 3" />
+          <div class="product-content">
+            <h3>Product 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint,
+              itaque eius exercitationem vitae deleniti harum excepturi fuga
+              aperiam illo totam accusantium maiores qui pariatur voluptates.
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">
+              IDR 7.000.000 <span>IDR 8.500.000</span>
+            </div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i><span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="item-detail-modal4">
+      <div class="modal-container">
+        <a href="#" class="close-icon4"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/products/4.jpg" alt="Product 4" />
+          <div class="product-content">
+            <h3>Product 4</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint,
+              itaque eius exercitationem vitae deleniti harum excepturi fuga
+              aperiam illo totam accusantium maiores qui pariatur voluptates.
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">
+              IDR 15.000.000 <span>IDR 16.500.000</span>
+            </div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i><span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="item-detail-modal5">
+      <div class="modal-container">
+        <a href="#" class="close-icon5"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/products/5.jpg" alt="Product 5" />
+          <div class="product-content">
+            <h3>Product 5</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint,
+              itaque eius exercitationem vitae deleniti harum excepturi fuga
+              aperiam illo totam accusantium maiores qui pariatur voluptates.
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">
+              IDR 26.500.000 <span>IDR 28.000.000</span>
+            </div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i><span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="item-detail-modal6">
+      <div class="modal-container">
+        <a href="#" class="close-icon6"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/products/6.jpg" alt="Product 6" />
+          <div class="product-content">
+            <h3>Product 6</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint,
+              itaque eius exercitationem vitae deleniti harum excepturi fuga
+              aperiam illo totam accusantium maiores qui pariatur voluptates.
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">
+              IDR 36.000.000 <span>IDR 37.500.000</span>
+            </div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i><span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Item end -->
 
     <!-- Feather Icons -->
     <script>
