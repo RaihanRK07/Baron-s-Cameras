@@ -56,30 +56,30 @@ const itemDetailButton5 = document.querySelector(".item-detail-button5");
 const itemDetailButton6 = document.querySelector(".item-detail-button6");
 
 // Yang bikin muncul setiap di klik
-itemDetailButton.onclick = (e) => {
-  itemDetailModal.style.display = "flex";
-  e.preventDefault();
-};
-itemDetailButton2.onclick = (e) => {
-  itemDetailModal2.style.display = "flex";
-  e.preventDefault();
-};
-itemDetailButton3.onclick = (e) => {
-  itemDetailModal3.style.display = "flex";
-  e.preventDefault();
-};
-itemDetailButton4.onclick = (e) => {
-  itemDetailModal4.style.display = "flex";
-  e.preventDefault();
-};
-itemDetailButton5.onclick = (e) => {
-  itemDetailModal5.style.display = "flex";
-  e.preventDefault();
-};
-itemDetailButton6.onclick = (e) => {
-  itemDetailModal6.style.display = "flex";
-  e.preventDefault();
-};
+// itemDetailButton.onclick = (e) => {
+//   itemDetailModal.style.display = "flex";
+//   e.preventDefault();
+// };
+// itemDetailButton2.onclick = (e) => {
+//   itemDetailModal2.style.display = "flex";
+//   e.preventDefault();
+// };
+// itemDetailButton3.onclick = (e) => {
+//   itemDetailModal3.style.display = "flex";
+//   e.preventDefault();
+// };
+// itemDetailButton4.onclick = (e) => {
+//   itemDetailModal4.style.display = "flex";
+//   e.preventDefault();
+// };
+// itemDetailButton5.onclick = (e) => {
+//   itemDetailModal5.style.display = "flex";
+//   e.preventDefault();
+// };
+// itemDetailButton6.onclick = (e) => {
+//   itemDetailModal6.style.display = "flex";
+//   e.preventDefault();
+// };
 
 // Klik tombol close modal
 document.querySelector(".modal .close-icon").onclick = (e) => {
